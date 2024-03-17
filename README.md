@@ -1,8 +1,6 @@
-# Grrs
+# Grrk
 
-Grrs is a simple command line tool writtern in `Rust`.
+Grrk is a simple command line tool written in `Rust`.
 
 It works similarly to `grep` and finds a pattern that occurs in a file
-
-## Get started
 
