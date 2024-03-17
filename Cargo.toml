@@ -1,6 +1,14 @@
 [package]
-name = "grrs"
+name = "grrk"
 version = "0.1.0"
+authors = ["power-level10k"]
+license = "MIT"
+description = "a tool to search for a pattern"
+readme = "README.md"
+homepage = ""
+repository =""
+keywords = ["cli", "search", "demo"]
+categories = ["command-line-utilities"]
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
@@ -8,3 +16,8 @@ edition = "2018"
 [dependencies]
 clap={version = "4.0", features =["derive"]}
 anyhow= "1.0"
+
+[dev-dependencies]
+assert_cmd= "2.0.14"
+predicates = "3.1.0"
+assert_fs = "1.1.1"
